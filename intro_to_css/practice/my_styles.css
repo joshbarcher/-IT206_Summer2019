@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+img {
+    border: 2px solid black;
+    width: 100%;
+}
+
+ul {
+    font-family: 'Times New Roman';
+    color: saddlebrown;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+h1 {
+    color: saddlebrown;
+}
