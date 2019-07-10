@@ -1,0 +1,14 @@
+p {
+    font-family: Baskerville, "Palatino Linotype", Palatino,
+                 "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 1rem;
+}
+
+p#important {
+    font-family: Notable, Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 2rem;
+}
+
+p#important span {
+    font-size: 0.5rem;
+}
