@@ -1,0 +1,18 @@
+body {
+    font-family: Baskerville;
+    color: #551a8b;
+}
+
+aside {
+    font-style: italic;
+}
+
+footer {
+    color: black;
+}
+
+/* override the inheritance */
+aside footer {
+    font-style: normal;
+    color: inherit;
+}

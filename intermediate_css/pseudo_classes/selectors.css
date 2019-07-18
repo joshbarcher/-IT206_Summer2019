@@ -1,0 +1,11 @@
+ul:last-child li:nth-of-type(even) {
+    color: #0000ee;
+}
+
+ul#female-actors li:nth-of-type(even) {
+    color: #ffff99;
+}
+
+ul:first-of-type li:first-child, ul:first-of-type li:last-child {
+    background-color: pink;
+}

@@ -1,0 +1,16 @@
+html {
+    background-color: rgb(222, 222, 222);
+}
+
+body {
+    background-color: #77b1bc;
+    width: 90%;
+    margin: 0 auto;
+}
+
+article p {
+    display: inline-block;
+    width: 30%;
+    margin: 4px auto;
+    border: 1px solid black;
+}
