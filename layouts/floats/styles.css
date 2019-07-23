@@ -19,24 +19,12 @@ img#history-2 {
     float: left;
 }
 
-div:last-child, div::first-letter {
-    clear: right;
-}
-
 div {
     float: left;
+    width: 50%;
     box-sizing: border-box;
 }
 
-/* first div is 30% */
-div:nth-of-type(1) {
-    width: 30%;
-}
-
-/* second two divs are 35% */
-div:nth-of-type(2), div:nth-of-type(3) {
-    width: 35%;
-}
 
 div section {
     border: 2px solid black;
