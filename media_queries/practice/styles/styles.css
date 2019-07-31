@@ -1,0 +1,15 @@
+/* styles for all devices */
+h1 {
+    border-top: 2px solid rosybrown;
+    border-bottom: 2px solid rosybrown;
+    padding: 8px 4px;
+    font-family: Baskerville Old Face, serif;
+    font-size: 2em;
+    background-color: bisque;
+    color: #8d5152;
+    line-height: 1.5em;
+}
+
+p {
+    padding: 30px;
+}

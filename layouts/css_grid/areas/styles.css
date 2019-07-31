@@ -39,3 +39,57 @@ div p:last-child::after {
     content: "";
     display: table;
 }
+
+header {
+    grid-area: head;
+}
+
+article#jewelry {
+    grid-area: jewel;
+}
+
+article#clocks {
+    grid-area: clock;
+}
+
+article#clothes {
+    grid-area: cloth;
+}
+
+article#furniture {
+    grid-area: furn;
+}
+
+article#books {
+    grid-area: book;
+}
+
+footer {
+    grid-area: foot;
+}
+
+aside {
+    grid-area: more;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+        "head  more  clock"
+        "cloth jewel clock"
+        "furn  book  book"
+        "foot  foot  foot";
+}
+
+
+
+
+
+
+
+
+
+
+
+
