@@ -12,7 +12,17 @@ div h1, div p {
 div {
     border-radius: 25px;
     margin: 20px;
-    width: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end; /* center on cross axis */
+    justify-content: center;
+    height: 1000px;
+
+    border: 2px solid black;
 }
 
 #div1 h1 {
@@ -22,6 +32,7 @@ div {
 
 #div1 {
     background-color: rgb(158, 158, 255);
+    flex-shrink: 1;
 }
 
 #div2 h1 {
@@ -31,6 +42,7 @@ div {
 
 #div2 {
     background-color: rgb(228, 228, 30);
+    flex-shrink: 4;
 }
 
 #div3 h1 {
@@ -40,6 +52,7 @@ div {
 
 #div3 {
     background-color: rgb(232, 156, 232);
+    flex-shrink: 4;
 }
 
 #div4 h1 {

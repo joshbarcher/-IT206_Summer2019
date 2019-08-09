@@ -1,0 +1,23 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #38a5c9;
+}
+
+tr:nth-of-type(even) {
+    background-color: #eee9ef;
+}
+
+th, td {
+    padding: 2px 4px;
+}
+
+thead, tfoot, tbody th:first-child {
+    background-color: darkgrey;
+}

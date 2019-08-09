@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>An example web form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <!-- gather the user name -->
+        <div class="form-field">
+            <label for="f-name">First name:</label>
+            <input type="text" name="f-name" id="f-name">
+        </div>
+        <div class="form-field">
+            <label for="m-initial">Middle initial:</label>
+            <input type="text" name="m-initial" id="m-initial">
+        </div>
+        <div class="form-field">
+            <label for="l-name">Last name:</label>
+            <input type="text" name="l-name" id="l-name">
+        </div>
+
+        <!-- gather the gender -->
+        <div class="form-field">
+            <label>Gender: </label>
+
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Other (unspecified)</label>
+        </div>
+
+        <!-- gather how the user learned about us -->
+        <div class="form-field">
+            <label>How did you hear about us?: </label>
+
+            <input type="checkbox" name="newspaper" value="newspaper"
+                   id="newspaper">
+            <label for="newspaper">Newspaper</label>
+
+            <input type="checkbox" name="word-of-mouth"
+                   value="word-of-mouth" id="word-of-mouth">
+            <label for="word-of-mouth">Word of mouth</label>
+
+            <input type="checkbox" name="advert" value="advert"
+                   id="advert">
+            <label for="advert">Advertisement</label>
+        </div>
+
+        <!-- gather services the user is interested in -->
+        <div class="form-field">
+            <label for="services">What service were you interested in?</label>
+            <select name="services" id="services">
+                <option value="counsel">Counseling</option>
+                <option value="jobs">Job Positions</option>
+                <option value="newsletter">Weekly Newsletter</option>
+            </select>
+        </div>
+
+        <!-- a button to send data to the server -->
+        <button type="submit">Submit!</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+div.form-field {
+    margin: 8px;
+}
+
+div.form-field label:first-child {
+    width: 150px;
+    display: inline-block;
+}
+
+button {
+    background-color: #ffff99;
+    padding: 6px 10px;
+    font-size: 1.2em;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+/* apply styles to textboxes and dropdowns */
+input[type="text"], select {
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: cornsilk;
+}
+
+input[type="checkbox"] {
+    border: 1px solid gray;
+}
+
+body {
+    background-color: ivory;
+}
