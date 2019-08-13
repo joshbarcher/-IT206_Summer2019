@@ -3,7 +3,7 @@ div.form-field {
 }
 
 div.form-field label:first-child {
-    width: 150px;
+    width: 100px;
     display: inline-block;
 }
 
@@ -13,7 +13,8 @@ button {
     font-size: 1.2em;
     border: 2px solid gray;
     border-radius: 5px;
-    margin-left: 8px;
+    margin-top: 8px;
+    display: block;
 }
 
 /* apply styles to textboxes and dropdowns */
@@ -22,6 +23,11 @@ input[type="text"], select {
     border: 1px solid gray;
     border-radius: 3px;
     background-color: cornsilk;
+    width: calc(100% - 114px);
+}
+
+select {
+    display: block;
 }
 
 input[type="checkbox"] {
@@ -31,3 +37,63 @@ input[type="checkbox"] {
 body {
     background-color: ivory;
 }
+
+/* grid styles */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "name  gender"
+            "about services";
+    grid-gap: 10px;
+}
+
+section#name {
+    grid-area: name;
+}
+
+fieldset#gender {
+    grid-area: gender;
+}
+
+fieldset#hear-about-us {
+    grid-area: about;
+}
+
+section#our-services {
+    grid-area: services
+}
+
+@media screen and (max-width: 480px) {
+    form {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+              "name"
+              "gender"
+              "about"
+              "services";
+    }
+
+    /* for mobile, stack labels and textboxes
+       on top of one another...
+     */
+    section#name label, section#name input[type="text"] {
+        display: block;
+    }
+
+    input[type="text"], select, button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
